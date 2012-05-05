@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <databases>
+        <database>
+            <name>dev</name>
+            <url>127.0.0.1</url>
+            <port>1521</port>
+            <login>admin</login>
+            <password>pass</password>
+        </database>
+        <database>
+            <name>production</name>
+            <url>192.23.44.100</url>
+            <port>1521</port>
+            <login>admin</login>
+            <password>not-so-easy-pass</password>
+        </database>
+    </databases>
+</config>
